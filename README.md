@@ -63,8 +63,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/AchrefFast/Frontend-Mentor--Loopstudios-landing-page)
-- [Live Site URL](https://achreffast.github.io/Frontend-Mentor--Loopstudios-landing-page)
+- [Solution URL](https://github.com/AchrefFast/Frontend-Mentor--Space-Tourism)
+- [Live Site URL](https://achreffast.github.io/Frontend-Mentor--Space-Tourism)
 
 ## My process
 
