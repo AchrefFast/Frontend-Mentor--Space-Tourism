@@ -1,0 +1,74 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor | Space tourism website</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.b532600b.png">
+    <link rel="stylesheet" href="./css/font-face.bd6efea6.css">
+    <link rel="stylesheet" href="./css/destination.e21bfe78.css">
+    <script src="./js/destination.21b1b652.js" type="module"> </script>
+    <script src="./js/main.b6e12dea.js"> </script>
+</head>
+
+<body>
+    <header class="header"><a class="header__logo" href="./index.html"></a><button class="hamburger__container"><span
+                class="hamburger__btn"></span></button>
+        <nav class="nav__container" id="nav">
+            <ul class="nav__list">
+                <li class="nav__item"> <a class="nav__link" href="./index.html"><span
+                            class="nav__number">00</span>Home</a></li>
+                <li class="active nav__item"><a class="nav__link" href="./destination.html"><span
+                            class="nav__number">01</span>Destination</a></li>
+                <li class="nav__item"> <a class="nav__link" href="./crew.html"><span
+                            class="nav__number">02</span>Crew</a></li>
+                <li class="nav__item"> <a class="nav__link" href="./technology.html"><span
+                            class="nav__number">03</span>Technology</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="destination__left">
+                <h2 class="destination__subtitle"><span class="destination__subtitle--number">01</span>pick your
+                    destination </h2>
+                <div class="destination__image">
+                    <picture id="destination__image">
+                        <source srcset="./images/image-moon.ea07c192.webp" type="image/webp">
+                        <source srcset="./images/image-moon.b20b8139.png" type="image/png"><img
+                            src="./images/image-moon.b20b8139.png" alt="Moon">
+                    </picture>
+                </div>
+            </div>
+            <div class="destination__right">
+                <nav class="destination__nav">
+                    <ul class="destination__nav__list">
+                        <li class="active destination__link" id="nav__moon"> <button>moon</button></li>
+                        <li class="destination__link" id="nav__mars"> <button>mars</button></li>
+                        <li class="destination__link" id="nav__europa"> <button>europa</button></li>
+                        <li class="destination__link" id="nav__titan"> <button>titan</button></li>
+                    </ul>
+                </nav>
+                <h1 class="destination__title" id="title">Moon</h1>
+                <div class="destination__text">
+                    <p id="description">See our planet as you’ve never seen it before. A perfect relaxing trip away to
+                        help regain perspective and come back refreshed. While you’re there, take in some history by
+                        visiting the Luna 2 and Apollo 11 landing sites.</p>
+                </div>
+                <div class="destination__info">
+                    <div class="destination__distance distination__state">
+                        <p class="destination__state__text">avg. distance</p>
+                        <p class="destination__state__number" id="distance"> 384,400 km</p>
+                    </div>
+                    <div class="destination__travel distination__state">
+                        <p class="destination__state__text"> est. travel time</p>
+                        <p class="destination__state__number" id="travel">3 days</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

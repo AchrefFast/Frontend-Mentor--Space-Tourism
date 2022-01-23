@@ -1,0 +1,59 @@
+@font-face {
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/barlow-v5-latin-regular.eb7976c3.eot);
+  src: local(""),
+    url(../fonts/barlow-v5-latin-regular.eb7976c3.eot?#iefix)
+      format("embedded-opentype"),
+    url(../fonts/barlow-v5-latin-regular.a6894767.woff2) format("woff2"),
+    url(../fonts/barlow-v5-latin-regular.acda0904.woff) format("woff"),
+    url(../fonts/barlow-v5-latin-regular.02d2a05c.ttf) format("truetype"),
+    url(../images/barlow-v5-latin-regular.bb42b4d2.svg#Barlow) format("svg");
+}
+@font-face {
+  font-family: Barlow Condensed;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/barlow-condensed-v5-latin-regular.01d12fec.eot);
+  src: local(""),
+    url(../fonts/barlow-condensed-v5-latin-regular.01d12fec.eot?#iefix)
+      format("embedded-opentype"),
+    url(../fonts/barlow-condensed-v5-latin-regular.3cd00bfc.woff2)
+      format("woff2"),
+    url(../fonts/barlow-condensed-v5-latin-regular.5659cdee.woff) format("woff"),
+    url(../fonts/barlow-condensed-v5-latin-regular.ba7eb099.ttf)
+      format("truetype"),
+    url(../images/barlow-condensed-v5-latin-regular.1c7cc058.svg#BarlowCondensed)
+      format("svg");
+}
+@font-face {
+  font-family: Barlow Condensed;
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/barlow-condensed-v5-latin-700.4ffdc76c.eot);
+  src: local(""),
+    url(../fonts/barlow-condensed-v5-latin-700.4ffdc76c.eot?#iefix)
+      format("embedded-opentype"),
+    url(../fonts/barlow-condensed-v5-latin-700.f12351b8.woff2) format("woff2"),
+    url(../fonts/barlow-condensed-v5-latin-700.59da6737.woff) format("woff"),
+    url(../fonts/barlow-condensed-v5-latin-700.cbbafbca.ttf) format("truetype"),
+    url(../images/barlow-condensed-v5-latin-700.e3e1757d.svg#BarlowCondensed)
+      format("svg");
+}
+@font-face {
+  font-display: swap;
+  font-family: Bellefair;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/bellefair-v6-latin-regular.d44fd862.eot);
+  src: local(""),
+    url(../fonts/bellefair-v6-latin-regular.d44fd862.eot?#iefix)
+      format("embedded-opentype"),
+    url(../fonts/bellefair-v6-latin-regular.462c47bc.woff2) format("woff2"),
+    url(../fonts/bellefair-v6-latin-regular.59377e9b.woff) format("woff"),
+    url(../fonts/bellefair-v6-latin-regular.15ac11b6.ttf) format("truetype"),
+    url(../images/bellefair-v6-latin-regular.bb594397.svg#Bellefair)
+      format("svg");
+}
+/*# sourceMappingURL=/css/font-face.bd6efea6.css.map */
