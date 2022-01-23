@@ -621,4 +621,18 @@ body {
     text-align: left;
   }
 }
+
+@media (min-width: 768px) {
+  .nav__container {
+    background: linear-gradient(90deg, #2c2c2c59 10%, #9292925b);
+  }
+
+  @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    .nav__container {
+      background: hsla(0, 0%, 100%, 0.05);
+      -webkit-backdrop-filter: blur(32px);
+      backdrop-filter: blur(32px);
+    }
+  }
+}
 /*# sourceMappingURL=/css/destination.e21bfe78.css.map */
